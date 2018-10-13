@@ -8,8 +8,8 @@ namespace Gradebook
     {
         public static void Main(string[] args)
         {
-            List<string> students = new List<string>();
-            List<double> grades = new List<double>();
+            var students = new List<string>();
+            var grades = new List<double>();
             string newStudent;
 
             Console.WriteLine("Enter your students (or ENTER to finish):");

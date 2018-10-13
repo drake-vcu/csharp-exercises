@@ -11,8 +11,8 @@ namespace DayPrinter
         static void Main(string[] args)
         {
             Console.WriteLine("Enter an integer: ");
-            string input = Console.ReadLine();
-            int dayNum = int.Parse(input);
+            var input = Console.ReadLine();
+            var dayNum = int.Parse(input);
 
             string day;
             switch (dayNum)

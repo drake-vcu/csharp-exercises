@@ -9,7 +9,7 @@ namespace HelloMethods
     {
         public static void Main(string[] args)
         {
-            string message = Message.GetMessage("fr");
+            var message = Message.GetMessage("fr");
             Console.WriteLine(message);
             Console.ReadLine();
         }

@@ -8,7 +8,7 @@ namespace GradebookDict
     {
         public static void Main(string[] args)
         {
-            Dictionary<string, double> students = new Dictionary<string, double>();
+            var students = new Dictionary<string, double>();
             string newStudent;
 
             Console.WriteLine("Enter your students (or ENTER to finish):");
@@ -34,7 +34,7 @@ namespace GradebookDict
                 Console.WriteLine(student.Key + " (" + student.Value + ")");
             }
 
-            double sum = students.Values.Sum();
+            var sum = students.Values.Sum();
             double avg = sum / students.Count;
             Console.WriteLine("Average grade: " + avg);
 

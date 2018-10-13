@@ -15,7 +15,7 @@ namespace TempConv
             input = Console.ReadLine();
             fahrenheit = double.Parse(input);
 
-            string str = "asdf";
+            var str = "asdf";
             foreach (char c in str)
             {
                 Console.WriteLine(c);

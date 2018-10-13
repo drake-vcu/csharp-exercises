@@ -12,8 +12,8 @@ namespace GradebookArray
             // Allow for at most 30 students
             int maxStudents = 30;
 
-            string[] students = new string[maxStudents];
-            double[] grades = new double[maxStudents];
+            var students = new string[maxStudents];
+            var grades = new double[maxStudents];
 
             string newStudent;
             int numStudents = 0;
@@ -34,7 +34,7 @@ namespace GradebookArray
             for (int i = 0; i < numStudents; i++)
             {
                 Console.Write("Grade for " + students[i] + ": ");
-                double newGrade = double.Parse(Console.ReadLine());
+                var newGrade = double.Parse(Console.ReadLine());
                 grades[i] = newGrade;
             }
 
